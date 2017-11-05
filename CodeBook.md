@@ -3,7 +3,7 @@
 Feature Selection 
 =================
 
-Each row represents a given subject performing one of 6 activites:
+Each row represents the measurements of a given subject performing one of 6 activites:
 
 subject: A number from 1-30 
 activity: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING or LAYING
@@ -45,7 +45,7 @@ So, for example, the variable representing standard deviation of the fBody Accel
 The complete list of variables is as follows:
 
 "subject"         
-         
+
 "tBodyAccmeanX"            
 "tBodyAccmeanY"           
 "tBodyAccmeanZ"            
@@ -87,50 +87,53 @@ The complete list of variables is as follows:
 "tBodyGyroJerkstdZ"        
 
 "tBodyAccMagmean"          
-"tBodyAccMagstd"          
-"tGravityAccMagmean"       
+"tBodyAccMagstd"           
 
+"tGravityAccMagmean"       
 "tGravityAccMagstd"        
+
 "tBodyAccJerkMagmean"     
 "tBodyAccJerkMagstd"       
 
 "tBodyGyroMagmean"         
 "tBodyGyroMagstd"         
-"tBodyGyroJerkMagmean"     
 
+"tBodyGyroJerkMagmean"     
 "tBodyGyroJerkMagstd"      
+
 "fBodyAccmeanX"           
 "fBodyAccmeanY"            
-
 "fBodyAccmeanZ"            
+
 "fBodyAccstdX"            
 "fBodyAccstdY"             
-
 "fBodyAccstdZ"             
+
 "fBodyAccJerkmeanX"       
 "fBodyAccJerkmeanY"        
-
 "fBodyAccJerkmeanZ"        
+
 "fBodyAccJerkstdX"        
 "fBodyAccJerkstdY"         
-
 "fBodyAccJerkstdZ"         
+
 "fBodyGyromeanX"          
 "fBodyGyromeanY"           
-
 "fBodyGyromeanZ"           
+
 "fBodyGyrostdX"           
 "fBodyGyrostdY"            
-
 "fBodyGyrostdZ"            
+
 "fBodyAccMagmean"         
 "fBodyAccMagstd"           
 
 "fBodyBodyAccJerkMagmean"  
 "fBodyBodyAccJerkMagstd"  
-"fBodyBodyGyroMagmean"     
 
+"fBodyBodyGyroMagmean"     
 "fBodyBodyGyroMagstd"      
+
 "fBodyBodyGyroJerkMagmean"
 "fBodyBodyGyroJerkMagstd"  
 
