@@ -53,5 +53,13 @@ write.table(merged_data,"UCI_HAR_tidy_data.txt",row.names = FALSE)
 
 #get average for each each variable grouped by activity
 avg_by_subject_activity <- merged_data %>% group_by(subject,activity) %>% summarise_all(funs(mean)) 
+
+#add "avg" to the column variable names so we know that these are average values
+
+colvar <-names(avg_by_subject_activity)
+avg_cols <- sapply(tail(colvar,-2),function(v) {paste0("avg",v)})
+colvar <- c(head(colvar,2),avg_cols)
+names(avg_by_subject_activity)<- colvar
+
 write.table(avg_by_subject_activity,"UCI_HAR_avg_by_subject_activity.txt",row.names = FALSE)
 
