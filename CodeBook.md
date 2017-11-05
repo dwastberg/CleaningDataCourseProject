@@ -58,6 +58,8 @@ std: Standard deviation
 
 So, for example, the variable representing standard deviation of the fBody Accelecration in the X direction is fBodyAccmeanX.
 
+The summarized dataset "UCI\_HAR\_avg\_by\_subject\_activity.txt"  contains the same variables, except each feature has the prefix "avg".  This is the average of all measurements of a given subject performing a given action.
+
 The complete list of variables is as follows:
 
 "subject"         
